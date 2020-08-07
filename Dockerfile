@@ -14,6 +14,7 @@ RUN apk add git
 RUN apk add python2
 RUN apk add netcat-openbsd
 RUN npm install -g gulp@2.3.0
+RUN npm install -g nodemon
 
 # Change current user to node
 USER node
@@ -35,5 +36,4 @@ WORKDIR /data
 
 # The real command is specified in docker-compose.yml
 CMD ["sleep", "10"]
-
 
