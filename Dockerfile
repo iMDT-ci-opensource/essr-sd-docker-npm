@@ -24,6 +24,7 @@ RUN mkdir /tmp/build
 RUN pwd
 RUN ls 
 ADD package.json /tmp/build
+ADD package-lock.json /tmp/build
 
 WORKDIR /tmp/build
 
