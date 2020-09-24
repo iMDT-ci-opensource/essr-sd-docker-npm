@@ -31,7 +31,7 @@
     "laravel-elixir": "^6.0.0-18",
     "laravel-elixir-browsersync-official": "^1.0.0",
     "main-bower-files": "^2.13.3",
-    "react-ace": "^9.1.2",
+    "react-ace": "^9.1.4",
     "style-loader": "^1.2.1",
     "webpack": "^4.44.1",
     "webpack-stream": "^5.2.1"
